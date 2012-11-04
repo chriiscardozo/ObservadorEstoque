@@ -1,0 +1,55 @@
+body{
+	padding: 10px;
+}
+
+.titulo_tabela_estoque {
+	background: #2062B8;
+	color: white;
+	font-style: italic;
+}
+
+.tabela_estoque{
+	border: 1px solid silver;
+	padding: 2px;
+	margin-bottom: 6px;
+}
+
+.celula_numerica_tabela{
+	text-align: right;
+	width: 100px;
+}
+
+.tabela_coluna_remover{
+	text-align: center;
+}
+
+.painel_adicionar{
+	margin: 10px 0px 15px 0px;
+}
+
+.gwt-Button {
+    background:transparent url(images/hborder.png) repeat-x scroll 0px -27px;
+    border:1px outset #CCCCCC;
+    cursor:pointer;
+    font-size:small;
+    margin:0pt;
+    padding:3px 5px;
+    text-decoration:none;
+}
+
+.gwt-Button-remove {
+  width: 50px;
+}
+
+/* Cores dinâmicas para o campo de variação */
+.semMudanca {
+  color: black;
+}
+
+.mudancaPositiva {
+  color: green;
+}
+
+.mudancaNegativa {
+  color: red;
+}
